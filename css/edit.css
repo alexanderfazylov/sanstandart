@@ -1,0 +1,41 @@
+.edit img, .delete img{
+    max-width: 13px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 3px;
+    display: inline;
+    top: 0px;
+}
+a.edit, a.delete{
+    border: 0px !important;
+}
+.edit img:hover, .delete img:hover{
+    width: 20px;
+}
+.add{
+    color:#6d8c4e;
+    text-decoration: none;
+}
+.add:hover{
+    color:#2a4f06;
+}
+.add img{
+    vertical-align: top;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+#sideAdd {
+    background-color: #edf6ef;
+    border-top: 5px solid #cfdbc4;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+.prew{
+    float: left;
+    width: 200px;
+}
+.row2 label{
+    display: inline-block !important;
+}
