@@ -26,6 +26,7 @@
 			<li>04<a href="/services">Услуги</a></li>
 			<li>05<a href="/news">Пресс-центр</a></li>
 			<li>06<a href="/contacts">Контакты</a></li>
+			<li>06<a href="/test">test</a></li>
 		</ul>
 		<div class="contacts">
                         <?php $contacts_city = City::model()->findAll();
