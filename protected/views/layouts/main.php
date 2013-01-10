@@ -47,6 +47,11 @@
                                    }
                                }?>
 		</div>
+                <div class="social">
+                    <a href="http://vk.com/sanstandart" title="Вконтакте" class="vk"></a>
+                    <a href="http://facebook.com/sanstandart" title="Facebook" class="fb"></a>
+                    <a href="http://twitter.com/sanstandart" title="twitter" class="twitter"></a>
+                </div>
 		</div>
 	</div><!-- #header-->
 

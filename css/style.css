@@ -98,6 +98,31 @@ input {
 #header .contacts h6 { font-size:14px; font-family: 'PT Serif', serif; clear:both; padding-left:15px; margin-bottom:3px; font-weight:bold;}
 #header .contacts p { float: left; font-size:12px;  padding-left:15px; margin-bottom:15px; }
 
+.social {
+    position: absolute;
+    width: 75px;
+    height:16px;
+    right: 20px;    
+}
+
+#header .social {
+    top: 145px;
+}
+
+#header .social a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+
+#header .social a.vk { background-image: url("/images/vk.gif"); }
+#header .social a.fb { background-image: url("/images/fb.gif"); }
+#header .social a.twitter { background-image: url("/images/twitter.png"); }
+
+#header .social a.vk:hover { background-image: url("/images/vk_h.gif"); }
+#header .social a.fb:hover { background-image: url("/images/fb_h.gif"); }
+#header .social a.twitter:hover { background-image: url("/images/twitter_h.png"); }
 /* Middle
 -----------------------------------------------------------------------------*/
 #middle {
@@ -218,6 +243,7 @@ z-index: expression( runtimeStyle.zIndex = 1, this == parentNode.firstChild ? (c
 	background: #f7f7f7;
 	position: relative;
 }
+
 #footer .hlp { 
 	width:944px; 
 	padding:0 28px; 
